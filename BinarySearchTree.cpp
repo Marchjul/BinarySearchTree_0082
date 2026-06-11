@@ -18,5 +18,11 @@ class Node{
 
 class BinaryTree{
     public:
+        Node* root;
+
+        BinaryTree()
+    {
+        root = NULL;
+    }
 
 };
